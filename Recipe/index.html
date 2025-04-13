@@ -4,7 +4,10 @@
         <meta charset="utf-8">
         <title>The Best Recipe</title>
         <style>
-            body {
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
       font-family: Arial, sans-serif;
       background-color: #e0f7fa;
       margin: 0;
@@ -32,6 +35,15 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
       }
+    #red {
+        color: red;
+    }
+    #orange {
+        color: orange;
+    }
+    #banana {
+        color: rgb(125, 125, 37);
+    }
 
         </style>
         
@@ -49,7 +61,7 @@
 
         <div class="content">
             <div class="destination">
-                <h2>🍎 Apple:</h2>
+                <h2 id="red">🍎 Apple:</h2>
                 <p>Apples are a great source of fiber, which aids digestion and supports gut health.
                     They are low in calories and high in antioxidants, <strong>them a healthy snack.</strong> 
                     Eating apples regularly may reduce the risk of heart disease and type 2 diabetes.
@@ -60,7 +72,7 @@
 
         <div class="content">
             <div class="destination">
-                <h2>🍊 Orange:</h2>
+                <h2 id="orange">🍊 Orange:</h2>
                 <p>Oranges are rich in vitamin C, which helps boost the immune system and fight off infections.
                     They also contain antioxidants that protect cells from damage and reduce inflammation.
                     Oranges are good for heart health as they help lower blood pressure and cholesterol.
@@ -71,7 +83,7 @@
         
             <div class="content">
                 <div class="destination">
-                    <h2>🍌 Banana:</h2>
+                    <h2 id="banana">🍌 Banana:</h2>
                     <p> Bananas are rich in potassium, which helps regulate blood pressure and support heart health.
                         They provide quick energy, making them ideal for athletes and busy individuals.
                         Bananas also support digestive health thanks to their fiber content.
