@@ -1,0 +1,133 @@
+footer {
+  background-color: #000000;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+}
+.address-wrapper {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin: 20px;
+}
+
+.name-adress, .from-home-office {
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+font-size: 15px;
+
+}
+
+.name-adress h4,
+.from-home-office h4 {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+#data-post {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+.text-interview {
+font-family: Arial;
+font-size: 14px;
+line-height: 1;
+font-size: 15px;
+}
+.text-interview h1 {
+margin: 0;
+padding: 0;
+
+}
+#start-name {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+.start-names {
+font-family: Arial;
+font-size: 14px;
+line-height: 1;
+font-size: 20px;
+}
+.start-names p {
+margin: 0;
+padding: 0;
+}
+#name {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+.info-interview {
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+font-size: 18px;
+background-color: rgb(181, 215, 215);
+}
+.info-interview p {
+margin: 0;
+padding: 0;
+}
+.next-interview {
+font-family: Arial;
+font-size: 15px;
+}
+li {
+font-family: Arial, sans-serif;
+background-color: rgb(255, 254, 236);
+}
+h5 {
+font-family: Arial, sans-serif;
+font-size: 15px;
+}
+.note-info {
+font-family: Arial, sans-serif;
+font-size: 18px;
+
+}
+.note-info p {
+  margin: 0;
+  padding: 0;
+}
+.Questions {
+  font-family: Arial;
+  font-size: 15px;
+}
+.Questions p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.Questionss {
+  font-family: Arial;
+  font-size: 155px;
+}
+.Questionss p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.spacer {
+  height: 20px; 
+}
+.page {
+  page-break-before: always;
+  break-before: page;
+  padding-top: 30px;
+}
+
+.page:first-of-type {
+  page-break-before: avoid;
+}
+header {
+  background-color: #005b96;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  color: #000;
+}
